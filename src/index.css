@@ -1,0 +1,43 @@
+@font-face{
+    font-family: styleFont;
+    src: url("../src/Mukta-Medium.ttf");
+}
+
+*{
+    font-family: styleFont, serif;
+    margin: 2% auto;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 80%;
+    color: #060b17;
+    background-color:#f7f2e8;
+    /* Noise background effect from W3Schools. */
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 300' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='.15'/%3E%3C/svg%3E");
+}
+
+
+footer {
+    color: #f1f8ff;
+    background-color: #5e7182;
+    border-radius: 2vh;
+    margin: 2vh 0;
+    padding: 1vh;
+}
+footer a{
+    color: #f69bb0;
+}
+
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #e36884;
+}
+
+p {
+    padding: 1vh 0 1vh;
+    margin: 1.5vh;
+}
